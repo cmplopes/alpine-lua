@@ -18,7 +18,7 @@ or
 $ docker run --rm -it -v $(pwd):/source cmplopes/alpine:lua:5.1.5 lua -v
 ```
 
-## Compile, link and run a Fortran program
+## Run a Lua program
 ```
 $ docker run --rm -it -v $(pwd):/source cmplopes/alpine:lua:5.1.5 lua test.lua
 ```
