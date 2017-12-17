@@ -7,7 +7,7 @@ $ docker pull -t cmplopes/alpine-lua:[TAG]
 
 ## Suported Tags
 
-[latest (Lua 5.1.5 over alpine:3.7) (Dockerfile)](https://github.com/cmplopes/alpine-lua/blob/master/5.1.5/Dockerfile)
+[5.1.5, latest (over alpine:3.7) (Dockerfile)](https://github.com/cmplopes/alpine-lua/blob/master/5.1.5/Dockerfile)
 
 ## Check Lua version
 ```
