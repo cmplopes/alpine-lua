@@ -11,14 +11,14 @@ $ docker pull -t cmplopes/alpine-lua:[TAG]
 
 ## Check Lua version
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine:lua
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-lua
 ```
 or
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine:lua lua -v
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-lua lua -v
 ```
 
 ## Run a Lua program
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine:lua lua test.lua
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-lua lua test.lua
 ```
