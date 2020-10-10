@@ -2,7 +2,7 @@
 Docker Lua over Alpine Linux
 
 ```
-$ docker pull -t cmplopes/alpine-lua:[TAG]
+$ docker pull cmplopes/alpine-lua:[TAG]
 ```
 
 ## Suported Tags
